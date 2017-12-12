@@ -8,4 +8,4 @@ customizing source, testing etc.
 - 2017-12-13
 - pet-medical-info : my part in angular2 team project
 - custom : datepicker(mydatepicker), modal-popup(angular-custom-modal)
-- issue : now using bootstrap css, need to modify scss or css. -> how to: using node-sass watch
+- issue : now using bootstrap css, need to modify scss or css. -> how: maybe.. using node-sass watch
