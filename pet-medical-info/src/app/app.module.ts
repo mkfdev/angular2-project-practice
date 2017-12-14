@@ -1,30 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MyDatePickerModule } from 'mydatepicker';
+import { FormsModule } from '@angular/forms';
+import { ModalModule } from 'ngx-bootstrap/modal'
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ModalModule } from 'angular-custom-modal';
 
 import { AppComponent } from './app.component';
-import { MedicalInfoComponent } from './dev/medical-info/components/medical-info.component';
-import { MedicalFormModalComponent } from './dev/medical-info/components/medical-form-modal/medical-form-modal.component';
-import {
-  PetDatePickerComponent
-} from './dev/medical-info/pet-date-picker';
-import { MyModalComponent } from './dev/medical-info/components/my-modal/my-modal.component';
+import { MedicalInfoComponent } from './dev/medical-info/medical-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MedicalInfoComponent,
-    MedicalFormModalComponent,
-    PetDatePickerComponent,
-    MyModalComponent
+    MedicalInfoComponent
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    MyDatePickerModule,
-    ModalModule
+    FormsModule,
+    ModalModule.forRoot(),
+    BsDatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

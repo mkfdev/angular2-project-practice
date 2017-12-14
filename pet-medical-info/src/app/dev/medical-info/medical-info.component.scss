@@ -1,0 +1,108 @@
+@import '../../../style/base.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+/* enroll medical info */
+
+.new-card-guide{
+  margin:0 auto;
+  padding-top:110px;
+}
+
+.icon-new-add{
+  display:block;
+  margin:0 auto;
+  border:0;
+  background-color:$white;
+}
+
+.icon-new-add img{
+  width:64px;
+  height:64px;
+}
+
+.text-new-add {
+  display:block;
+  margin-top: 6px;
+}
+
+/*card enroll*/
+.enroll-list .flex-card-content ul.flex-medical-list{
+  height: auto;
+}
+
+.enroll-list ul .flex-card-listitem{
+  padding:0;
+  margin-bottom:0;
+  width:300px;
+}
+
+.enroll-list ul .flex-card-listitem .flex-card .flex-card-image {
+  height:180px;
+}
+
+textarea{
+  vertical-align: top;
+  resize:none;
+}
+
+#my-modal .modal-content {
+  border: 0;
+  min-height: 440px;;
+  overflow: hidden;
+  background: transparent;
+}
+
+#my-modal .modal-content .modal-body {
+  padding: 0;
+} 
+
+#my-modal .modal-content .modal-body .close{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#my-modal .close {
+  opacity:1;
+  z-index: 9999;
+}
+
+#my-modal .close img{
+  width:25px;
+  height:25px;
+}
+
+@media (min-width: 576px){
+  #my-modal .modal-dialog {
+    margin: 50px auto;
+  }
+}
+
+#date {
+  width:180px;
+}
+
+/* form validation */
+.alert{
+  background: #f2edda;
+  padding: 3px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  animation: 2s alertAni forwards;
+  color: red;
+}
+
+@keyframes alertani {
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -124,7 +124,6 @@ table {
   border-spacing: 0;
 }
 
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 
@@ -672,4 +671,21 @@ body{
   background-color: #304b89;
   color: #fff;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+/*민경 추가*/
+* {
+  box-sizing:border-box;
+}
+=======
+<<<<<<< HEAD
+=======
 
+
+=======
+>>>>>>> 01c3019c918e23e5a9bd6cab70da13a7128a4d5b:src/style/normalize.css
+>>>>>>> 6669a8d52f8a8a193111f707a1757b589c691cab
+>>>>>>> 15bd139f81353d65f79216642ca8f452ff2c535e
+=======
+
+>>>>>>> dev
